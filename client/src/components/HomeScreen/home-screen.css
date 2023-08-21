@@ -33,7 +33,7 @@
 .home-screen h3{
     padding: 0 20px;
     text-align: left;
-    line-break: normal;
+    overflow-wrap: break-word;
 }
 
 @media screen and (min-width: 250px) and (max-width: 619px){
@@ -47,6 +47,5 @@
     
     .home-screen h3{
         font-size: 16px;
-        overflow-wrap: break-word;
     }
 }
