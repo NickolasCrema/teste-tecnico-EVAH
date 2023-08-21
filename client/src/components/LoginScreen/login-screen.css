@@ -1,0 +1,53 @@
+.login-screen{
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-screen .image{
+    width: 53%;
+    height: 100%;
+    margin: 0 0 0 0;
+    position: absolute;
+    float: left;
+    background-position: center center;
+}
+
+.login-screen .login-section{
+    width: 47%;
+    height: 100%;
+    margin: 0 0 0 0;
+    margin-left: 50%;
+    float: right;
+    display: flex;
+    justify-content: left;
+}
+
+@media screen and (min-width: 620px) and (max-width: 999px){
+    
+    .login-screen .image{
+        width: 40%;
+    }
+    
+    .login-screen .login-section{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 250px) and (max-width: 619px){
+    .login-screen{
+        background-color: rgba(19, 5, 37, 1);
+    }
+    
+    .login-screen .image{
+        width: 100%;
+        background-position: center center;
+        height: 60%;
+    }
+    
+    .login-screen .login-section{
+        width: 85%;
+        height: 381px;    
+        position: relative;
+        margin: 0 7.5%;
+        margin-top: 45%;
+    }
+}

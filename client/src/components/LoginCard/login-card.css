@@ -1,0 +1,128 @@
+.login-card{
+    margin-left: 15%;
+    width: 300px;
+    height: 60%;
+    align-self: center;
+    text-align: center;
+}
+
+.login-card h1{
+    font-weight: 400;
+    font-size: 40px;
+    text-align: left;
+    color: rgba(56, 62, 113, 1);
+    margin: 0;
+}
+
+.login-card h2{
+    font-weight: 600;
+    color: rgba(152, 159, 219, 1);
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.login-card button{
+    margin: 15px 0;
+    width: 100%;
+    height: 58px;
+    border-radius: 8px;
+    background: linear-gradient(267.79deg, #383E71 0%, #9D25B0 99.18%);
+    box-shadow: 0px 10px 25px 0px rgba(207, 153, 219, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+.login-card button:hover{
+    background: linear-gradient(267.79deg, #474e8e 0%, #ba2cd0 99.18%);
+    cursor: pointer;
+}
+
+.forgot-password{
+    margin-top: 30px;
+}
+
+.forgot-password h3{
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(152, 159, 219, 1);
+}
+
+.forgot-password h3 a{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(150, 38, 172, 1);
+}
+
+.title{}
+
+
+@media screen and (min-width: 620px) and (max-width: 999px){
+    .login-card{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 250px) and (max-width: 619px){
+    .login-card{
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        padding: 10px 30px;
+        border-radius: 8px;
+        align-items: center;
+        margin:0;
+    }
+
+    .login-card h1{
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        color: rgba(56, 62, 113, 1);
+        margin: 0;
+    }
+
+    .login-card h2{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .login-card button{
+        margin:0;
+        margin-top: 15px;
+        width: 60%;
+        height: 48px;
+        border-radius: 8px;
+        box-shadow: none;
+        font-size: 16px;
+        display:inline;
+        align-self: center;
+    }
+    
+    .button-center{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .title{
+        margin: 20px 0;
+    }
+
+    .forgot-password{
+        margin-top: 30px;
+    }
+
+    .forgot-password h3{
+        font-size: 14px;
+    }
+
+
+    .forgot-password h3 a{
+        font-size: 14px;
+    }
+}
