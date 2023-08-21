@@ -63,6 +63,7 @@
 @media screen and (min-width: 250px) and (max-width: 619px){
     .popup-alert .box{
         width: 70%;
+        text-align: center;
     }
 
     .popup-alert .box h2{
